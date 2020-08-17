@@ -1,5 +1,4 @@
 //Import the Link API to support client-side navigation
-import Link from "next/link";
 import Image from "react-bootstrap/Image";
 import Layout from "../components/MyLayout";
 import { Col } from "react-bootstrap";
@@ -9,13 +8,13 @@ const about = () => (
   <Layout>
    
     <Col md={"auto"}>
-      <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <Image class="activator" src="/static/images/wedding.jpg" />
+      <div className="card">
+        <div className="card-image waves-effect waves-block waves-light">
+          <Image className="activator" src="/static/images/wedding.jpg" />
         </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4 font-weight-bold">
-            Liam Hendricks<i class="material-icons right">more_vert</i>
+        <div className="card-content">
+          <span className="card-title activator grey-text text-darken-4 font-weight-bold">
+            Liam Hendricks<i className="material-icons right">more_vert</i>
           </span>
           <p>
             <a
@@ -26,9 +25,9 @@ const about = () => (
             </a>
           </p>
         </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4 font-weight-bold">
-            About me<i class="material-icons right">close</i>
+        <div className="card-reveal">
+          <span className="card-title grey-text text-darken-4 font-weight-bold">
+            About me<i className="material-icons right">close</i>
           </span>
           <h6>
             I am a recent Computer system graduate from CPUT, with a full years’
