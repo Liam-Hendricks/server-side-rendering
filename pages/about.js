@@ -16,14 +16,14 @@ const about = () => (
           <span className="card-title activator grey-text text-darken-4 font-weight-bold">
             Liam Hendricks<i className="material-icons right">more_vert</i>
           </span>
-          <p>
+          
             <a
               href="https://www.linkedin.com/in/liam-hendricks-43aa33176/"
               target="_blank"
             >
               <h6>LinkedIn</h6>
             </a>
-          </p>
+         
         </div>
         <div className="card-reveal">
           <span className="card-title grey-text text-darken-4 font-weight-bold">

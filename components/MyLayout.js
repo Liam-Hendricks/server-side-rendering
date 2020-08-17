@@ -1,4 +1,4 @@
-import { initGA, logPageView } from "../utils/googleAnalytics";
+
 import Head from "next/head";
 import Header from "./Header";
 
@@ -13,15 +13,9 @@ const layoutStyle = {
 /* Notice in the example below that we pass children and title as props to the Layout components.
 If you remove {children}, the Layout cannot render the content we put inside the Layout element. 
 Have a look at ./pages/index.js to see where we pass props through to this Layout Component. */
-export default class Layout extends React.Component {
-  componentDidMount() {
-    if (!window.GA_INITIALIZED) {
-      initGA();
-      window.GA_INITIALIZED = true;
-    }
-    logPageView();
-  }
-  render() {
+export default function Layout (props){
+ 
+ 
     return (
       <div>
         <style global jsx>{`
@@ -30,6 +24,10 @@ export default class Layout extends React.Component {
           }
         `}</style>
         <Head>
+          
+
+
+
           <link
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -46,6 +44,24 @@ export default class Layout extends React.Component {
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css"
           />
+
+
+      
+          
+           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175547566-1"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                        
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                
+                  gtag('config', 'UA-175547566-1');
+                
+                `,
+            }}
+          />
         </Head>
 
         <div className="row justify-content-center">
@@ -54,11 +70,13 @@ export default class Layout extends React.Component {
           </div>
         </div>
 
-        <div className="row justify-content-center">{this.props.children}</div>
+        <div className="row justify-content-center">{props.children}</div>
+
+       
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
       </div>
     );
-  }
+  
 }

@@ -19,9 +19,9 @@ const projects = () => (
             <span className="card-title activator grey-text text-darken-4 font-weight-bold">
              Minesweeper<i className="material-icons right">more_vert</i>
             </span>
-            <p>
+            
               <a href="https://morning-dusk-09436.herokuapp.com/" target='_blank'><h6>Try it out here</h6></a>
-            </p>
+           
           </div>
           <div className="card-reveal">
             <span className="card-title grey-text text-darken-4 font-weight-bold">
@@ -57,9 +57,9 @@ const projects = () => (
             <span className="card-title activator grey-text text-darken-4 font-weight-bold">
              Itunes Media Library<i className="material-icons right">more_vert</i>
             </span>
-            <p>
+          
               <a href="https://immense-meadow-75751.herokuapp.com/" target='_blank'><h6>Try it out here</h6></a>
-            </p>
+         
           </div>
           <div className="card-reveal">
             <span className="card-title grey-text text-darken-4 font-weight-bold">
@@ -91,9 +91,9 @@ const projects = () => (
               <span className="card-title activator grey-text text-darken-4 font-weight-bold">
               Drone Operation App<i className="material-icons right">more_vert</i>
               </span>
-              <p>
+           
                 <a href="https://rpasflighplanner.herokuapp.com/" target='_blank'><h6>Try it out here</h6></a>
-              </p>
+             
             </div>
             <div className="card-reveal">
               <span className="card-title grey-text text-darken-4 font-weight-bold">
@@ -127,9 +127,9 @@ const projects = () => (
             <span className="card-title activator grey-text text-darken-4 font-weight-bold">
              My Github<i className="material-icons right">more_vert</i>
             </span>
-            <p>
+         
               <a href="https://github.com/Liam-Hendricks" target='_blank'><h6>Check it out</h6></a>
-            </p>
+        
           </div>
           <div className="card-reveal">
             <span className="card-title grey-text text-darken-4 font-weight-bold">
