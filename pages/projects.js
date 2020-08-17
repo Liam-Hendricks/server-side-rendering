@@ -34,10 +34,10 @@ const projects = () => (
              The task was to building a gaming using react.
              <br/>
              <br/>
-              I chose minesweeper to build minesweeper.
+              I chose to build minesweeper.
              <br/>
              <br/>
-             This project was challenge but once I figured out the main logic, it all came together.
+             This project was challenging but once I figured out the main logic, it all came together.
              <br/>
              <br/>
               After testing and debugging this app ,I deployed and hosted it on Heroku.
@@ -112,7 +112,7 @@ const projects = () => (
                 It allows user to plan drone flights and have all the nessessary documents.
                 <br/>
                 <br/>
-                A user also has access to where data to their location or at the location of the planned flight.
+                A user also has access to weather data using their gps location or can get weather data at a location of a planned flight.
               </h6>
             </div>
           </div>
@@ -142,7 +142,7 @@ const projects = () => (
               You can view all the code for the projects that are hosted on Heroku as well as view the other projects that are not.
               <br/>
               <br/>
-              Some of my other projects demostrate my early stages of learning javascript and html to fully developed MERN web applications.
+              Some of my other projects demostrate my early stages of learning javascript,html and then fully developed MERN web applications.
             </h6>
           </div>
         </div>
