@@ -32,15 +32,19 @@ const about = () => (
           </span>
           <h6>
             I am a recent Computer system graduate from CPUT, with a full years’
-            worth of industry work experience. This time was spent developing,
-            testing and deploying code to perform required task. I am
-            experienced in using the systems development life cycle (SDLC)
+            worth of industry work experience.
+            <br/>
+            <br/> This time was spent developing, testing and deploying code to perform required task.
+            <br/>
+            <br/> I am  experienced in using the systems development life cycle (SDLC)
             method when working on new projects and maintaining or integrating
-            into existing ones. I enjoy working on teams and am not afraid to
-            take initiative in order to learn new things to accomplish what is
-            required and may be required. I am currently finishing a Full Stack
-            Web Development coarse HyperionDev, it has been challenging and
-            rewarding but I can't wait to apply my newly gained knowlegde.
+            into existing ones.
+            <br/>
+            <br/> I enjoy working on teams and am not afraid to  take initiative in order to learn new things to accomplish what is
+            required and may be required.
+            <br/>
+            <br/> I am currently finishing a Full Stack Web Development coarse HyperionDev, it has been challenging and
+                  rewarding but I can't wait to apply my newly gained knowlegde.
           </h6>
         </div>
       </div>

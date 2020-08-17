@@ -47,7 +47,7 @@ const Layout = (props) => (
             
         </div>
           
-        <div className='row justify-content-center'>
+        <div className="row justify-content-center">
          {props.children}
         </div>
       
